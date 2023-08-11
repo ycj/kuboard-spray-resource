@@ -20,6 +20,9 @@ metadata:
       versions:
         - "20.04"
         - "22.04"
+    - distribution: Debian
+      versions:
+        - "12"
     - distribution: Anolis
       versions:
         - "8.4" 
@@ -43,8 +46,10 @@ metadata:
     - distribution: Rocky
       versions:
         - "8.5"
+        - "8.6"
         - "8.7"
         - "9.1"
+        - "9.2"
     - distribution: openEuler
       versions:
         - "20.03"
@@ -282,7 +287,7 @@ data:
           - kuboard
       params_default:
         kuboard_version: 'v3.5.2.4'
-        kuboard_port: 80
+        kuboard_port: 7080
         kuboard_cluster_name: 'default'
         kuboard_data_dir: '/root/kuboard-data'
       params:
