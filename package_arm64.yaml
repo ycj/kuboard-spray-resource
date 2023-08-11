@@ -1,5 +1,5 @@
 metadata:
-  version: spray-v2.21.0c_k8s-v1.26.4_v4.4-arm64
+  version: spray-v2.21.0c_k8s-v1.26.4_v4.4.1-arm64
   type: kubernetes-offline-resource
   kuboard_spray_version:
     min: v1.2.4
@@ -8,7 +8,7 @@ metadata:
     - swr.cn-east-2.myhuaweicloud.com/kuboard/kuboard-spray-resource
     - eipwork/kuboard-spray-resource
   issue_date: "2023-4-29"
-  owner: "shaohq@foxmail.com"
+  owner: "yuanchangjun@hylink.net.cn"
   can_upgrade_from:
     include:
       - spray-v2.21.0[a-c]_k8s-v1.26.[0-3]*_v4.[1-3]-arm64
